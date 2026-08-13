@@ -1071,8 +1071,8 @@ textarea { resize: vertical; }
     min-width: 0;
   }
   .brand img {
-    width: min(46vw, 166px);
-    height: 48px;
+    width: min(38vw, 136px);
+    height: 40px;
   }
   .nav-toggle {
     width: 46px;
