@@ -152,6 +152,10 @@ h3 { font-size: clamp(1.55rem, 2.7vw, 2.45rem); }
 .nav-links a:hover,
 .nav-links a:focus-visible { color: var(--primary-strong); }
 .nav-toggle { display: none; }
+.nav-toggle::before,
+.nav-toggle::after {
+  display: none;
+}
 
 .button {
   min-height: 48px;
@@ -933,6 +937,8 @@ textarea { resize: vertical; }
   .site-header { grid-template-columns: auto 1fr auto; }
   .header-cta { display: none; }
   .nav-toggle {
+    appearance: none;
+    -webkit-appearance: none;
     justify-self: end;
     width: 44px;
     height: 44px;
@@ -943,6 +949,8 @@ textarea { resize: vertical; }
     border-radius: var(--radius-sm);
     color: var(--text);
     background: rgba(255, 248, 236, 0.04);
+    font-size: 0;
+    line-height: 0;
   }
   .nav-toggle i {
     display: block;
