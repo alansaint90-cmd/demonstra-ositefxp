@@ -422,6 +422,13 @@ h3 { font-size: clamp(1.55rem, 2.7vw, 2.45rem); }
   align-items: center;
   gap: 9px;
 }
+.metric-network em {
+  font-style: normal;
+  color: transparent;
+  background: var(--gold-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .metric-network svg {
   width: 20px;
   height: 20px;
