@@ -932,10 +932,6 @@ textarea { resize: vertical; }
   width: 17px;
   height: 17px;
   flex: 0 0 auto;
-  fill: currentColor;
-}
-.footer nav svg .icon-hole {
-  fill: var(--bg);
 }
 .footer a:hover,
 .footer a:focus-visible {
