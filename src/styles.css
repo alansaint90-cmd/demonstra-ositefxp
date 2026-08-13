@@ -260,6 +260,24 @@ h3 { font-size: clamp(1.55rem, 2.7vw, 2.45rem); }
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
+.hero-panel .hero-network {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.hero-network em {
+  font-style: normal;
+  color: transparent;
+  background: var(--gold-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.hero-network svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 7px 14px rgba(214, 41, 118, 0.22));
+}
 .hero-panel strong {
   display: block;
   margin: 8px 0;
