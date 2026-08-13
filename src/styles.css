@@ -895,6 +895,15 @@ textarea { resize: vertical; }
   font-weight: 400;
   text-transform: uppercase;
 }
+.footer-brand span {
+  color: var(--text);
+}
+.footer-brand span:nth-child(2) {
+  color: transparent;
+  background: var(--gold-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .footer span, .footer small { color: var(--muted); }
 .footer nav {
   display: flex;
