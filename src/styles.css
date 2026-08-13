@@ -303,8 +303,14 @@ h3 { font-size: clamp(1.55rem, 2.7vw, 2.45rem); }
 }
 .marquee span::after {
   position: absolute;
+  top: 50%;
   right: 12px;
-  content: "/";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #050506;
+  transform: translateY(-50%);
+  content: "";
 }
 
 .section {
