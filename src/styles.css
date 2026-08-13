@@ -983,8 +983,8 @@ textarea { resize: vertical; }
 
 .reveal {
   opacity: 0;
-  transform: translateY(22px);
-  transition: opacity 620ms var(--ease), transform 620ms var(--ease);
+  transform: translateY(14px);
+  transition: opacity 980ms var(--ease), transform 980ms var(--ease);
 }
 .reveal.is-visible {
   opacity: 1;

@@ -25,7 +25,7 @@ function animateCounter(element) {
     return;
   }
 
-  const duration = 1100;
+  const duration = 1600;
   const start = performance.now();
 
   function step(now) {
